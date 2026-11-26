@@ -2,9 +2,9 @@
 """Gera as páginas da série "Do chat ao agente" em serie/<id>/ (PT) e serie/<id>/en|es/.
 
 Fontes:
-  serie/conteudo/{pt,en,es}.json   textos de cada página (PT é a fonte; EN/ES são traduções)
+  serie/conteudo/{pt,en,es}.json   textos de cada página (PT é a fonte; EN/ES sêo traduções)
   serie/roteiros/<id>.json         roteiro do vídeo (cenas faladas, PT)
-  serie/videos.json                vídeo publicado de cada página (url do MP4 + legenda); sem entrada = "em produção"
+  serie/videos.json                vídeo publicado de cada página (url do MP4 + legenda); sem entrada = "em produçêo"
   serie/assets/serie-<id>.jpg      banner da hero
 Uso: python3 serie/gerar.py
 """
@@ -29,7 +29,7 @@ try{localStorage.setItem(k,b.classList.contains('light')?'light':'dark')}catch(e
 
 
 def ban(p, lang):
-    """banner do idioma; se ainda não existir, usa o PT"""
+    """banner do idioma; se ainda nêo existir, usa o PT"""
     nome = f"serie-{p}-{lang}.jpg"
     return nome if lang != "pt" and (AQUI / "assets" / nome).exists() else f"serie-{p}.jpg"
 
@@ -96,7 +96,7 @@ def pagina(pid, lang, C, roteiro, videos):
     i = ORDEM.index(pid)
     url = f"{BASE}{pid}/{sub}"
 
-    # navegação entre páginas da série
+    # navegaçêo entre páginas da série
     def link(p):
         return f"{pref}{p}/{sub}"
     seqnav = "".join(

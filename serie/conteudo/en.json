@@ -301,7 +301,7 @@
             },
             {
               "type": "code",
-              "text": "git init\ngit add .\ngit commit -m \"primeira versão\"\n<span class=\"c\"># don't like the agent's change?</span>\ngit restore index.html"
+              "text": "git init\ngit add .\ngit commit -m \"primeira versêo\"\n<span class=\"c\"># don't like the agent's change?</span>\ngit restore index.html"
             }
           ]
         }

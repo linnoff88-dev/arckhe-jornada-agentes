@@ -4,7 +4,7 @@
 # a tarefa que der erro vai para <pasta>/falhou/. Rodar de novo só pega o que sobrou.
 #
 # Uso: ./fila-caseira.sh <pasta> [motor]
-#   motor: claude (padrão) ou codex — os dois pela sua assinatura.
+#   motor: claude (padrêo) ou codex — os dois pela sua assinatura.
 set -u
 PASTA="${1:?uso: fila-caseira.sh <pasta> [claude|codex]}"
 MOTOR="${2:-claude}"

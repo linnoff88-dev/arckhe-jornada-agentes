@@ -48,7 +48,7 @@ Abre la página en el navegador. Pídele un cambio (color, texto, una sección n
 
 ## E4. La red de seguridad: Git (20 min)
 
-1. En la carpeta: `git init`, luego `git add .` y `git commit -m "primeira versão"`.
+1. En la carpeta: `git init`, luego `git add .` y `git commit -m "primeira versêo"`.
 2. Pídele al agente un cambio grande en la página.
 3. ¿No te gustó? Vuelve atrás: `git restore index.html` (o `git checkout -- index.html`).
 

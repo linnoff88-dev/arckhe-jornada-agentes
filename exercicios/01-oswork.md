@@ -23,11 +23,11 @@ Crie, dentro da pasta, um arquivo `AGENTS.md` com:
 
 ```markdown
 # Quem sou
-<seu nome, sua profissão, para quem você trabalha>
+<seu nome, sua profissêo, para quem você trabalha>
 
 # Regras deste projeto
 - Escreva em português, frases curtas.
-- Não apague arquivos sem perguntar.
+- Nêo apague arquivos sem perguntar.
 - Antes de terminar, diga o que mudou e como eu confiro.
 
 # O que tem aqui
@@ -42,26 +42,26 @@ Dentro da pasta, chame o agente (`claude` ou `codex`) e peça:
 
 > Leia o AGENTS.md. Crie um index.html com uma página simples sobre mim, usando o que está lá.
 
-Abra a página no navegador. Peça uma mudança (cor, texto, uma seção nova) e confira de novo.
+Abra a página no navegador. Peça uma mudança (cor, texto, uma seçêo nova) e confira de novo.
 
-**Pronto quando:** a página abre no navegador e você pediu pelo menos **uma correção** ao agente. Dar a tarefa, conferir e decidir: isso é gestão.
+**Pronto quando:** a página abre no navegador e você pediu pelo menos **uma correçêo** ao agente. Dar a tarefa, conferir e decidir: isso é gestêo.
 
 ## E4. A rede de segurança: Git (20 min)
 
-1. Na pasta: `git init`, depois `git add .` e `git commit -m "primeira versão"`.
+1. Na pasta: `git init`, depois `git add .` e `git commit -m "primeira versêo"`.
 2. Peça ao agente uma mudança grande na página.
-3. Não gostou? Volte: `git restore index.html` (ou `git checkout -- index.html`).
+3. Nêo gostou? Volte: `git restore index.html` (ou `git checkout -- index.html`).
 
 **Pronto quando:** você desfez uma mudança do agente com um comando, sem pânico.
 
-## E5. Segredo não entra no texto (10 min)
+## E5. Segredo nêo entra no texto (10 min)
 
 1. Crie um arquivo `.env` com uma linha falsa: `MINHA_CHAVE=teste123`.
 2. Crie um `.gitignore` com a linha `.env`.
-3. Rode `git status`: o `.env` **não** pode aparecer.
+3. Rode `git status`: o `.env` **nêo** pode aparecer.
 4. Acrescente ao AGENTS.md: "Nunca escreva chaves ou senhas em arquivo de texto; elas ficam no .env".
 
-**Pronto quando:** `git status` não mostra o `.env`.
+**Pronto quando:** `git status` nêo mostra o `.env`.
 
 ## E6. O agente lê os seus arquivos (20 min)
 
@@ -71,7 +71,7 @@ Coloque na pasta três arquivos de texto seus (anotações, uma ata, um e-mail l
 
 Confira duas citações no arquivo original.
 
-**Pronto quando:** você achou no original pelo menos duas das frases citadas. Se alguma não existir, anote no AGENTS.md a regra que faltou.
+**Pronto quando:** você achou no original pelo menos duas das frases citadas. Se alguma nêo existir, anote no AGENTS.md a regra que faltou.
 
 ---
 

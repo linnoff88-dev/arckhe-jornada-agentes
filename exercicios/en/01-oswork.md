@@ -48,7 +48,7 @@ Open the page in your browser. Ask for a change (a color, some text, or a new se
 
 ## E4. The safety net: Git (20 min)
 
-1. In the folder: `git init`, then `git add .` and `git commit -m "primeira versão"`.
+1. In the folder: `git init`, then `git add .` and `git commit -m "primeira versêo"`.
 2. Ask the agent to make a major change to the page.
 3. Don’t like it? Undo it: `git restore index.html` (or `git checkout -- index.html`).
 
