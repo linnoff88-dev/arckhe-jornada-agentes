@@ -1,7 +1,7 @@
 # Secuencia 2 — Crea tu propio Jarvis (INTELECTO)
 
 **Objetivo:** tener un asistente personal propio que hable por Telegram, recuerde las conversaciones y tenga la personalidad que tú definas.  
-**Base:** INTELECTO (https://inematds.github.io/intelecto/), curso (https://inematds.github.io/intelecto-curso/) y área https://eventos.inema.pro/jarvis/  
+**Base:** INTELECTO (https://linnoff88-dev.github.io/arckhe-/), curso (https://linnoff88-dev.github.io/arckhe-/) y área https://eventos.ARCKHÉ.pro/jarvis/  
 **Requisito previo:** haber completado la Secuencia 1 (terminal, carpetas, `.env`).
 
 ---
@@ -28,13 +28,13 @@ En Telegram, abre `@BotFather`, envía `/newbot` y elige un nombre y un @usuario
 INTELECTO no tiene instalador: le entregas un briefing al agente y él construye el asistente, con pruebas. Primero mira el camino funcionando en el ejemplo del repositorio (9 pruebas, sin clave y sin internet):
 
 ```bash
-git clone https://github.com/inematds/intelecto.git
+git clone https://github.com/linnoff88-dev/intelecto.git
 cd intelecto/exemplo-jarvis
 python3 -m unittest discover -s . -p 'test_*.py' -v
 python3 smoke.py
 ```
 
-1. Abre la página de comparación de INTELECTO (https://inematds.github.io/intelecto/), marca los ingredientes y exporta el briefing.
+1. Abre la página de comparación de INTELECTO (https://linnoff88-dev.github.io/arckhe-/), marca los ingredientes y exporta el briefing.
 2. Pídele a Claude Code o a Codex: "Construye mi asistente a partir de este briefing y de doc/intelecto.md, con pruebas."
 3. Usa tu `meu-jarvis.md` para el nombre, la forma de hablar y la personalidad. El token de Telegram queda solo en el `.env`.
 

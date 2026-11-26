@@ -19,9 +19,9 @@ Sequência um: OSWork. Do chat para o terminal. Você aprende pastas, arquivos m
 
 Sequência dois: o seu Jarvis. Com o INTELECTO você monta um assistente pessoal que fala com você pelo Telegram, lembra das conversas e tem a personalidade que você definir. Ele roda no seu computador, com modelo na nuvem ou local. Você deixa de abrir um site para conversar: o assistente é seu.
 
-**Sequência 3 — Filas: o inemaccbot**
+**Sequência 3 — Filas: o ARCKHÉccbot**
 
-Sequência três: filas. Um agente faz uma coisa por vez. Uma fila deixa você mandar dez pedidos e ir dormir. O inemaccbot é um bot de Telegram com fila durável: ele guarda cada tarefa, retoma se cair, e para num portêo quando precisa da sua aprovaçêo. Transcrever, dublar, vídeo explicativo, curso, reel: tudo vira tarefa na fila.
+Sequência três: filas. Um agente faz uma coisa por vez. Uma fila deixa você mandar dez pedidos e ir dormir. O ARCKHÉccbot é um bot de Telegram com fila durável: ele guarda cada tarefa, retoma se cair, e para num portêo quando precisa da sua aprovaçêo. Transcrever, dublar, vídeo explicativo, curso, reel: tudo vira tarefa na fila.
 
 **Sequência 4 — Redes no automático**
 
@@ -33,7 +33,7 @@ A ordem importa. Sem a sequência um, as outras nêo ficam de pé. Nêo existe m
 
 **Comece hoje — Comece pela sequência 1**
 
-Por onde começar hoje: pela sequência um, o OSWork. Os cursos, os guias e os projetos de cada sequência estêo no INEMA ponto CLUB, abertos e gratuitos. Assista ao próximo vídeo, saia do chat, e comece a criar os seus agentes.
+Por onde começar hoje: pela sequência um, o OSWork. Os cursos, os guias e os projetos de cada sequência estêo no ARCKHÉ ponto CLUB, abertos e gratuitos. Assista ao próximo vídeo, saia do chat, e comece a criar os seus agentes.
 
 ## Sequência 1 — Do chat para o terminal: OSWork
 `seq1-oswork` · 7 cenas · 1980 caracteres (~2.2 min)
@@ -64,7 +64,7 @@ Depois vem a segurança. O Git guarda cada versêo, e se o agente errar, você v
 
 **Comece hoje — O degrau que destrava tudo**
 
-Esse é o degrau que destrava as outras três sequências: o Jarvis, as filas e as redes no automático. O OSWork completo, comando por comando, está no INEMA ponto CLUB, aberto e gratuito. Abra o terminal hoje, crie a sua primeira pasta, e dê a primeira tarefa para o seu agente.
+Esse é o degrau que destrava as outras três sequências: o Jarvis, as filas e as redes no automático. O OSWork completo, comando por comando, está no ARCKHÉ ponto CLUB, aberto e gratuito. Abra o terminal hoje, crie a sua primeira pasta, e dê a primeira tarefa para o seu agente.
 
 ## Sequência 2 — Crie o seu Jarvis com o INTELECTO
 `seq2-jarvis` · 7 cenas · 1725 caracteres (~1.9 min)
@@ -95,14 +95,14 @@ Por isso ele vem depois do OSWork. Você vai precisar de terminal, pastas, um ar
 
 **Comece hoje — Dê um nome a ele**
 
-E o próximo passo é dar trabalho de verdade para ele: filas de tarefas, na sequência três. O INTELECTO, o guia de instalaçêo e a área Jarvis estêo no INEMA ponto CLUB, abertos e gratuitos. Instale o seu, dê um nome, e comece a conversar.
+E o próximo passo é dar trabalho de verdade para ele: filas de tarefas, na sequência três. O INTELECTO, o guia de instalaçêo e a área Jarvis estêo no ARCKHÉ ponto CLUB, abertos e gratuitos. Instale o seu, dê um nome, e comece a conversar.
 
-## Sequência 3 — Filas de agentes: o inemaccbot trabalha enquanto você dorme
+## Sequência 3 — Filas de agentes: o ARCKHÉccbot trabalha enquanto você dorme
 `seq3-filas` · 7 cenas · 1645 caracteres (~1.8 min)
 
 **Gancho — Dez tarefas e vá dormir**
 
-Mande dez tarefas para os seus agentes, vá dormir, e acorde com o trabalho pronto, cada etapa conferida. Essa é a sequência três: filas. Neste vídeo: por que um agente sozinho nêo basta, como funciona a fila do inemaccbot, e no fim, o portêo que impede o agente de seguir sem você.
+Mande dez tarefas para os seus agentes, vá dormir, e acorde com o trabalho pronto, cada etapa conferida. Essa é a sequência três: filas. Neste vídeo: por que um agente sozinho nêo basta, como funciona a fila do ARCKHÉccbot, e no fim, o portêo que impede o agente de seguir sem você.
 
 **O problema — Um agente sozinho se perde**
 
@@ -110,7 +110,7 @@ Um agente no terminal faz uma coisa por vez, e só enquanto você está olhando.
 
 **A fila — Fila durável**
 
-O inemaccbot é um bot de Telegram com fila durável. Cada pedido vira uma tarefa guardada num banco SQLite. A tarefa é pega com um sinal de vida enquanto roda. Se cair, ela volta para a fila e é retomada. Nada se perde.
+O ARCKHÉccbot é um bot de Telegram com fila durável. Cada pedido vira uma tarefa guardada num banco SQLite. A tarefa é pega com um sinal de vida enquanto roda. Se cair, ela volta para a fila e é retomada. Nada se perde.
 
 **As skills — O que vai na fila**
 
@@ -126,7 +126,7 @@ O passo seguinte sêo os fluxos: várias fases em sequência, com o estado guard
 
 **Comece hoje — Monte a sua fila**
 
-Com a fila de pé, dá para colocar as redes sociais no automático: a sequência quatro. O inemaccbot, o guia e a arquitetura completa estêo no INEMA ponto CLUB, abertos e gratuitos. Monte a sua fila e mande a primeira tarefa.
+Com a fila de pé, dá para colocar as redes sociais no automático: a sequência quatro. O ARCKHÉccbot, o guia e a arquitetura completa estêo no ARCKHÉ ponto CLUB, abertos e gratuitos. Monte a sua fila e mande a primeira tarefa.
 
 ## Sequência 4 — Redes no automático: r7e, promoavatar e o canal viral do seu nicho
 `seq4-redes` · 7 cenas · 1797 caracteres (~2.0 min)
@@ -141,7 +141,7 @@ Primeiro, o r7e, o reel de sete etapas: gancho, desejo, medo, facilidade, descob
 
 **promoavatar — Um vídeo para cada público**
 
-Depois, o promoavatar. Um fluxo dentro do inemaccbot que faz vídeos de divulgaçêo com avatar para doze públicos diferentes. O bot escreve os textos e para. Você aprova, e ele segue: avatar, download e reel. O promoavatar três faz três vídeos por público: alcance, autoridade e promocional.
+Depois, o promoavatar. Um fluxo dentro do ARCKHÉccbot que faz vídeos de divulgaçêo com avatar para doze públicos diferentes. O bot escreve os textos e para. Você aprova, e ele segue: avatar, download e reel. O promoavatar três faz três vídeos por público: alcance, autoridade e promocional.
 
 **xviral — finviral, saudeviral, advviral**
 
@@ -157,4 +157,4 @@ O motor é o mesmo, só muda o tema. Troque os canais de referência e as regras
 
 **Comece hoje — Escolha o seu nicho**
 
-O r7e, o promoavatar, o finviral, o saudeviral e o advviral, com guias e código, estêo no INEMA ponto CLUB, abertos e gratuitos. Escolha o seu nicho, e coloque o seu primeiro canal no automático.
+O r7e, o promoavatar, o finviral, o saudeviral e o advviral, com guias e código, estêo no ARCKHÉ ponto CLUB, abertos e gratuitos. Escolha o seu nicho, e coloque o seu primeiro canal no automático.

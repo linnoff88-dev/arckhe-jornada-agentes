@@ -1,7 +1,7 @@
 # Sequência 4 — Redes sociais no automático (r7e, promoavatar, xviral)
 
 **Objetivo:** montar o canal do seu nicho que publica com regularidade, com números, fontes e o seu rosto, e com você aprovando o que importa.
-**Base:** reel7etapas (https://inematds.github.io/reel7etapas/guia/), promoavatar (https://inematds.github.io/promoavatar/guia/), promoavatar3 (https://inematds.github.io/promoavatar3/guia/), finviral (https://inematds.github.io/finviral/guia/), saudeviral (https://inematds.github.io/saudeviral/guia/) e advviral (https://inematds.github.io/advviral/guia/).
+**Base:** reel7etapas (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar3 (https://linnoff88-dev.github.io/arckhe-/guia/), finviral (https://linnoff88-dev.github.io/arckhe-/guia/), saudeviral (https://linnoff88-dev.github.io/arckhe-/guia/) e advviral (https://linnoff88-dev.github.io/arckhe-/guia/).
 **Pré-requisito:** Sequências 1, 2 e 3. Sem fila e sem portêo, automatizar rede social vira postar errado mais rápido.
 
 ---
@@ -30,7 +30,7 @@ Escolha 5 canais de referência do seu nicho (imóveis, agro, beleza, educaçêo
 
 ## E3. A base com fonte (30 min)
 
-Pegue a transcriçêo de um vídeo de um dos 5 canais (o inemavox ou outro transcritor local resolve). Monte `base.md`:
+Pegue a transcriçêo de um vídeo de um dos 5 canais (o ARCKHÉvox ou outro transcritor local resolve). Monte `base.md`:
 
 | Número ou fato | Quem disse | Vídeo | Trecho literal |
 |---|---|---|---|

@@ -1,7 +1,7 @@
-# Secuencia 3 — Colas de agentes (inemaccbot)
+# Secuencia 3 — Colas de agentes (ARCKHÉccbot)
 
 **Objetivo:** enviar varias tareas, alejarte y encontrar el trabajo hecho, con una puerta de aprobación cuando te necesite.
-**Base:** inemaccbot (https://inematds.github.io/inemaccbot/guia/) y curso https://eventos.inema.pro/inemaccbot.html
+**Base:** ARCKHÉccbot (https://linnoff88-dev.github.io/arckhe-/guia/) y curso https://eventos.ARCKHÉ.pro/ARCKHÉccbot.html
 **Requisito previo:** Secuencias 1 y 2.
 
 ---
@@ -32,7 +32,7 @@ Cada archivo de `entrada/` se convierte en una tarea. La respuesta va a `feito/`
 
 **Listo cuando:** las dos tareas están en `fila/feito/` con la respuesta, y detuviste (Ctrl+C) una ejecución y viste que la cola continuó desde donde quedó.
 
-## E3. Instalar el inemaccbot (1 h)
+## E3. Instalar el ARCKHÉccbot (1 h)
 
 Sigue la guía hasta que `/ping` responda en Telegram. Después: `/ajuda` muestra los comandos y `/fila` muestra las colas.
 

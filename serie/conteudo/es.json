@@ -26,10 +26,10 @@
     "next": "Siguiente",
     "seq_of": "Secuencia {n} de 4",
     "overview": "Resumen",
-    "footer": "Serie «Del chat al agente» · INEMA · contenido abierto y gratuito",
+    "footer": "Serie «Del chat al agente» · ARCKHÉ · contenido abierto y gratuito",
     "area": "Área del evento",
     "subtitles": "Portugués",
-    "ex_base": "https://github.com/inematds/jornada-agentes/blob/main/exercicios/"
+    "ex_base": "https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/"
   },
   "pages": {
     "jornada-ia": {
@@ -39,7 +39,7 @@
       "h1": "Del chat al <span class=\"amb\">agente</span>, en cuatro pasos",
       "lead": "Deja de copiar y pegar y crea agentes que trabajen por ti: en tu computadora, en una cola de tareas e en tus redes sociales.",
       "description": "Resumen de la serie Del chat al agente: por qué el chat se queda corto, las 4 secuencias (OSWork, Jarvis, colas y redes automáticas), el orden correcto y por dónde empezar hoy. Abierto y gratuito.",
-      "resumo": "La mayoría de las personas se queda en el chat: pregunta, copia, pega y vuelve a preguntar. Esta serie muestra el camino completo hasta crear agentes que trabajan solos, en cuatro secuencias. Primero la terminal y las carpetas (OSWork), luego un asistente tuyo en Telegram (INTELECTO), después una cola de tareas que corre mientras duermes (inemaccbot) y, por último, las redes sociales en automático. Cada secuencia tiene curso, proyecto abierto, video y ejercicios con criterio de terminado.",
+      "resumo": "La mayoría de las personas se queda en el chat: pregunta, copia, pega y vuelve a preguntar. Esta serie muestra el camino completo hasta crear agentes que trabajan solos, en cuatro secuencias. Primero la terminal y las carpetas (OSWork), luego un asistente tuyo en Telegram (INTELECTO), después una cola de tareas que corre mientras duermes (ARCKHÉccbot) y, por último, las redes sociales en automático. Cada secuencia tiene curso, proyecto abierto, video y ejercicios con criterio de terminado.",
       "sections": [
         {
           "id": "como-funciona",
@@ -132,27 +132,27 @@
       "materials": [
         {
           "label": "Guia da Jornada de los Agentes",
-          "href": "https://inematds.github.io/jornada-agentes/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "los 23 ejercicios en un solo lugar"
         },
         {
           "label": "OSWork Quick",
-          "href": "https://inematds.github.io/oswork-quick/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "note": "El primer paso, en siete lecciones"
         },
         {
           "label": "Área Del chat al agente",
-          "href": "https://eventos.inema.pro/do-chat-ao-agente/",
-          "note": "eventos INEMA"
+          "href": "https://eventos.ARCKHÉ.pro/do-chat-ao-agente/",
+          "note": "eventos ARCKHÉ"
         },
         {
           "label": "Repositorio en GitHub",
-          "href": "https://github.com/inematds/jornada-agentes",
+          "href": "https://github.com/linnoff88-dev/jornada-agentes",
           "note": "ejercicios y una cola casera"
         }
       ],
       "cta_title": "Empieza hoy por la secuencia 1",
-      "cta_text": "Los cursos, las guías y los proyectos de cada secuencia están en INEMA.CLUB, abiertos y gratuitos. Sal del chat y empieza a crear tus agentes.",
+      "cta_text": "Los cursos, las guías y los proyectos de cada secuencia están en ARCKHÉ AI, abiertos y gratuitos. Sal del chat y empieza a crear tus agentes.",
       "cta_label": "Ir a la secuencia 1",
       "cta_href": "../seq1-oswork/"
     },
@@ -348,29 +348,29 @@
       "materials": [
         {
           "label": "OSWork Quick",
-          "href": "https://inematds.github.io/oswork-quick/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "note": "El camino corto, en siete lecciones"
         },
         {
           "label": "OSWork v6.2",
-          "href": "https://inematds.github.io/oswork-v62/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "note": "paso a paso para principiantes, con cmd y VPS"
         },
         {
           "label": "Vídeos do OSWork no Terminal",
-          "href": "https://inematds.github.io/oswork-terminal/videos/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/videos/",
           "note": "la lección en video"
         },
         {
           "label": "Área OSWork",
-          "href": "https://eventos.inema.pro/oswork/",
-          "note": "eventos INEMA"
+          "href": "https://eventos.ARCKHÉ.pro/oswork/",
+          "note": "eventos ARCKHÉ"
         }
       ],
       "cta_title": "Abre la terminal hoy",
       "cta_text": "Este es el paso que desbloquea Jarvis, las colas y las redes automáticas. Crea tu primera carpeta y dale la primera tarea a tu agente.",
       "cta_label": "Abrir OSWork Quick",
-      "cta_href": "https://inematds.github.io/oswork-quick/"
+      "cta_href": "https://linnoff88-dev.github.io/arckhe-/"
     },
     "seq2-jarvis": {
       "nav": "2 · Jarvis",
@@ -449,7 +449,7 @@
           "blocks": [
             {
               "type": "code",
-              "text": "git clone https://github.com/inematds/intelecto.git\ncd intelecto/exemplo-jarvis\npython3 -m unittest discover -s . -p 'test_*.py' -v\npython3 smoke.py"
+              "text": "git clone https://github.com/linnoff88-dev/intelecto.git\ncd intelecto/exemplo-jarvis\npython3 -m unittest discover -s . -p 'test_*.py' -v\npython3 smoke.py"
             },
             {
               "type": "steps",
@@ -537,40 +537,40 @@
       "materials": [
         {
           "label": "INTELECTO",
-          "href": "https://inematds.github.io/intelecto/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "note": "el proyecto y la instalación"
         },
         {
           "label": "Curso INTELECTO",
-          "href": "https://inematds.github.io/intelecto-curso/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/",
           "note": "cómo funciona por dentro"
         },
         {
           "label": "Videos de instalación",
-          "href": "https://inematds.github.io/intelecto-instalacao/videos/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/videos/",
           "note": "paso a paso en video"
         },
         {
           "label": "Área JARVIS",
-          "href": "https://eventos.inema.pro/jarvis/",
-          "note": "eventos INEMA"
+          "href": "https://eventos.ARCKHÉ.pro/jarvis/",
+          "note": "eventos ARCKHÉ"
         }
       ],
       "cta_title": "Instálalo y ponle un nombre",
       "cta_text": "El siguiente paso es darle trabajo de verdad: colas de tareas, en la secuencia 3.",
       "cta_label": "Abrir INTELECTO",
-      "cta_href": "https://inematds.github.io/intelecto/"
+      "cta_href": "https://linnoff88-dev.github.io/arckhe-/"
     },
     "seq3-filas": {
       "nav": "3 · Colas",
       "chip": "Secuencia 3 · Colas",
       "card_title": "Colas: diez tareas y vete a dormir",
-      "card_text": "inemaccbot guarda cada tarea, la reanuda si algo falla y se detiene en la puerta cuando te necesita.",
-      "title": "Secuencia 3 — Colas de agentes: inemaccbot trabaja mientras duermes",
+      "card_text": "ARCKHÉccbot guarda cada tarea, la reanuda si algo falla y se detiene en la puerta cuando te necesita.",
+      "title": "Secuencia 3 — Colas de agentes: ARCKHÉccbot trabaja mientras duermes",
       "h1": "Diez tareas y <span class=\"amb\">vete a dormir</span>",
       "lead": "Una cola de tareas para tus agentes, que se reanuda si algo falla y con una puerta donde el trabajo espera tu aprobación.",
-      "description": "Secuencia 3 de la serie Del chat al agente: por qué un agente por sí solo no basta, la cola duradera de inemaccbot, las skills que se ejecutan en la cola y la puerta de aprobación humana. Con video, una cola casera y ejercicios, abierto y gratuito.",
-      "resumo": "Un agente en la terminal hace una cosa a la vez y solo mientras lo miras. La cola resuelve esto: cada solicitud se convierte en una tarea guardada, se toma de una en una y se reanuda si la máquina se cae. inemaccbot es un bot de Telegram con esa cola duradera, que ejecuta skills como transcribir, doblar, video explicativo, curso y reel. En flujos de varias fases, una puerta humana hace que el bot se detenga y espere tu aprobación. Aquí pasas de hacer el trabajo a gestionarlo.",
+      "description": "Secuencia 3 de la serie Del chat al agente: por qué un agente por sí solo no basta, la cola duradera de ARCKHÉccbot, las skills que se ejecutan en la cola y la puerta de aprobación humana. Con video, una cola casera y ejercicios, abierto y gratuito.",
+      "resumo": "Un agente en la terminal hace una cosa a la vez y solo mientras lo miras. La cola resuelve esto: cada solicitud se convierte en una tarea guardada, se toma de una en una y se reanuda si la máquina se cae. ARCKHÉccbot es un bot de Telegram con esa cola duradera, que ejecuta skills como transcribir, doblar, video explicativo, curso y reel. En flujos de varias fases, una puerta humana hace que el bot se detenga y espere tu aprobación. Aquí pasas de hacer el trabajo a gestionarlo.",
       "sections": [
         {
           "id": "como-funciona",
@@ -688,7 +688,7 @@
         },
         {
           "n": "E3",
-          "title": "Instalar inemaccbot",
+          "title": "Instalar ARCKHÉccbot",
           "time": "1 h",
           "ready": "/ping responde en tu Telegram."
         },
@@ -707,25 +707,25 @@
       ],
       "materials": [
         {
-          "label": "Guía de inemaccbot",
-          "href": "https://inematds.github.io/inemaccbot/guia/",
+          "label": "Guía de ARCKHÉccbot",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "instalación y arquitectura"
         },
         {
-          "label": "Curso INEMACCBOT",
-          "href": "https://eventos.inema.pro/inemaccbot.html",
+          "label": "Curso ARCKHÉCCBOT",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉccbot.html",
           "note": "con el flujo promoavatar"
         },
         {
           "label": "Cola caseira",
-          "href": "https://github.com/inematds/jornada-agentes/blob/main/ferramentas/fila-caseira.sh",
+          "href": "https://github.com/linnoff88-dev/jornada-agentes/blob/main/ferramentas/fila-caseira.sh",
           "note": "la idea en 30 líneas"
         }
       ],
       "cta_title": "Arma tu cola",
       "cta_text": "Con la cola funcionando, puedes poner las redes sociales en automático: secuencia 4.",
-      "cta_label": "Abrir la guía de inemaccbot",
-      "cta_href": "https://inematds.github.io/inemaccbot/guia/"
+      "cta_label": "Abrir la guía de ARCKHÉccbot",
+      "cta_href": "https://linnoff88-dev.github.io/arckhe-/guia/"
     },
     "seq4-redes": {
       "nav": "4 · Redes",
@@ -766,7 +766,7 @@
           "id": "promoavatar",
           "chip": "promoavatar",
           "h2": "Un video para cada público",
-          "sub": "Un flujo dentro de inemaccbot que crea videos promocionales con avatar para doce públicos diferentes.",
+          "sub": "Un flujo dentro de ARCKHÉccbot que crea videos promocionales con avatar para doce públicos diferentes.",
           "blocks": [
             {
               "type": "steps",
@@ -878,39 +878,39 @@
       "materials": [
         {
           "label": "r7e · Reel de 7 etapas",
-          "href": "https://inematds.github.io/reel7etapas/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "el modelo de disparadores"
         },
         {
           "label": "promoavatar",
-          "href": "https://inematds.github.io/promoavatar/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "un video por público"
         },
         {
           "label": "promoavatar3",
-          "href": "https://inematds.github.io/promoavatar3/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "alcance, autoridad y promoción"
         },
         {
           "label": "finviral",
-          "href": "https://inematds.github.io/finviral/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "finanzas"
         },
         {
           "label": "saudeviral",
-          "href": "https://inematds.github.io/saudeviral/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "salud"
         },
         {
           "label": "advviral",
-          "href": "https://inematds.github.io/advviral/guia/",
+          "href": "https://linnoff88-dev.github.io/arckhe-/guia/",
           "note": "derecho"
         }
       ],
       "cta_title": "Elige tu nicho",
       "cta_text": "Usa finviral como modelo y pon tu primer canal en automático, con una puerta de aprobación durante la primera semana.",
       "cta_label": "Abrir finviral",
-      "cta_href": "https://inematds.github.io/finviral/guia/"
+      "cta_href": "https://linnoff88-dev.github.io/arckhe-/guia/"
     }
   }
 }

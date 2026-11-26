@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fila-caseira.sh — fila de tarefas mínima, para entender a ideia antes do inemaccbot.
+# fila-caseira.sh — fila de tarefas mínima, para entender a ideia antes do ARCKHÉccbot.
 # Cada arquivo em <pasta>/entrada/ é um pedido; a resposta vai para <pasta>/feito/,
 # a tarefa que der erro vai para <pasta>/falhou/. Rodar de novo só pega o que sobrou.
 #

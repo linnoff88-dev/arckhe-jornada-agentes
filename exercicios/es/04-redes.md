@@ -1,7 +1,7 @@
 # Secuencia 4 — Redes sociales en automático (r7e, promoavatar, xviral)
 
 **Objetivo:** crear el canal de tu nicho que publica con regularidad, con cifras, fuentes y tu rostro, y con tu aprobación en lo que importa.
-**Base:** reel7etapas (https://inematds.github.io/reel7etapas/guia/), promoavatar (https://inematds.github.io/promoavatar/guia/), promoavatar3 (https://inematds.github.io/promoavatar3/guia/), finviral (https://inematds.github.io/finviral/guia/), saudeviral (https://inematds.github.io/saudeviral/guia/) y advviral (https://inematds.github.io/advviral/guia/).
+**Base:** reel7etapas (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar3 (https://linnoff88-dev.github.io/arckhe-/guia/), finviral (https://linnoff88-dev.github.io/arckhe-/guia/), saudeviral (https://linnoff88-dev.github.io/arckhe-/guia/) y advviral (https://linnoff88-dev.github.io/arckhe-/guia/).
 **Requisito previo:** Secuencias 1, 2 y 3. Sin cola ni puerta de control, automatizar las redes sociales solo hace que publiques mal más rápido.
 
 ---
@@ -30,7 +30,7 @@ Elige 5 canales de referencia de tu nicho (inmuebles, agro, belleza, educación�
 
 ## E3. La base con fuentes (30 min)
 
-Toma la transcripción de un video de uno de los 5 canales (inemavox u otro transcriptor local se encarga). Arma `base.md`:
+Toma la transcripción de un video de uno de los 5 canales (ARCKHÉvox u otro transcriptor local se encarga). Arma `base.md`:
 
 | Número o hecho | Quién lo dijo | Video | Fragmento literal |
 |---|---|---|---|

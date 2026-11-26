@@ -2,7 +2,7 @@
  {
   "chapter": "Gancho",
   "title": "Dez tarefas e vá dormir",
-  "speech": "Mande dez tarefas para os seus agentes, vá dormir, e acorde com o trabalho pronto, cada etapa conferida. Essa é a sequência três: filas. Neste vídeo: por que um agente sozinho nêo basta, como funciona a fila do inemaccbot, e no fim, o portêo que impede o agente de seguir sem você."
+  "speech": "Mande dez tarefas para os seus agentes, vá dormir, e acorde com o trabalho pronto, cada etapa conferida. Essa é a sequência três: filas. Neste vídeo: por que um agente sozinho nêo basta, como funciona a fila do ARCKHÉccbot, e no fim, o portêo que impede o agente de seguir sem você."
  },
  {
   "chapter": "O problema",
@@ -12,7 +12,7 @@
  {
   "chapter": "A fila",
   "title": "Fila durável",
-  "speech": "O inemaccbot é um bot de Telegram com fila durável. Cada pedido vira uma tarefa guardada num banco SQLite. A tarefa é pega com um sinal de vida enquanto roda. Se cair, ela volta para a fila e é retomada. Nada se perde."
+  "speech": "O ARCKHÉccbot é um bot de Telegram com fila durável. Cada pedido vira uma tarefa guardada num banco SQLite. A tarefa é pega com um sinal de vida enquanto roda. Se cair, ela volta para a fila e é retomada. Nada se perde."
  },
  {
   "chapter": "As skills",
@@ -32,6 +32,6 @@
  {
   "chapter": "Comece hoje",
   "title": "Monte a sua fila",
-  "speech": "Com a fila de pé, dá para colocar as redes sociais no automático: a sequência quatro. O inemaccbot, o guia e a arquitetura completa estêo no INEMA ponto CLUB, abertos e gratuitos. Monte a sua fila e mande a primeira tarefa."
+  "speech": "Com a fila de pé, dá para colocar as redes sociais no automático: a sequência quatro. O ARCKHÉccbot, o guia e a arquitetura completa estêo no ARCKHÉ ponto CLUB, abertos e gratuitos. Monte a sua fila e mande a primeira tarefa."
  }
 ]

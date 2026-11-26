@@ -13,11 +13,11 @@ import html, json, pathlib, re
 AQUI = pathlib.Path(__file__).resolve().parent
 ORDEM = ["jornada-ia", "seq1-oswork", "seq2-jarvis", "seq3-filas", "seq4-redes"]
 LANGS = ["pt", "en", "es"]
-BASE = "https://inematds.github.io/jornada-agentes/serie/"
+BASE = "https://linnoff88-dev.github.io/arckhe-/serie/"
 EX_DIR = {"pt": "", "en": "en/", "es": "es/"}
-AREA = {"pt": "https://eventos.inema.pro/do-chat-ao-agente/",
-        "en": "https://eventos.inema.pro/do-chat-ao-agente/en/",
-        "es": "https://eventos.inema.pro/do-chat-ao-agente/es/"}
+AREA = {"pt": "https://eventos.ARCKHÉ.pro/do-chat-ao-agente/",
+        "en": "https://eventos.ARCKHÉ.pro/do-chat-ao-agente/en/",
+        "es": "https://eventos.ARCKHÉ.pro/do-chat-ao-agente/es/"}
 ICON = {"jornada-ia": "🧭", "seq1-oswork": "💻", "seq2-jarvis": "🧠", "seq3-filas": "📋", "seq4-redes": "📣"}
 
 CSS = (AQUI / "estilo.css").read_text(encoding="utf-8")
@@ -143,7 +143,7 @@ def pagina(pid, lang, C, roteiro, videos):
 
     mats = "".join(f'<a class="card mat" href="{m["href"]}" target="_blank" rel="noopener"><h3>{m["label"]} →</h3><p>{m["note"]}</p></a>'
                    for m in P["materials"])
-    mats += f'<a class="card mat" href="{AREA[lang]}" target="_blank" rel="noopener"><h3>{ui["area"]} →</h3><p>eventos.inema.pro</p></a>' if pid != "jornada-ia" else ""
+    mats += f'<a class="card mat" href="{AREA[lang]}" target="_blank" rel="noopener"><h3>{ui["area"]} →</h3><p>eventos.ARCKHÉ.pro</p></a>' if pid != "jornada-ia" else ""
 
     prev = f'<a class="pn" href="{link(ORDEM[i-1])}"><small>← {ui["prev"]}</small><b>{C["pages"][ORDEM[i-1]]["nav"]}</b></a>' if i > 0 else "<span></span>"
     nxt = f'<a class="pn dir" href="{link(ORDEM[i+1])}"><small>{ui["next"]} →</small><b>{C["pages"][ORDEM[i+1]]["nav"]}</b></a>' if i < len(ORDEM) - 1 else "<span></span>"
@@ -173,7 +173,7 @@ def pagina(pid, lang, C, roteiro, videos):
 <nav class="topo"><div class="wrap">
   <a class="brand" href="{link('jornada-ia')}"><span class="emoji">{ICON[pid]}</span> {ui['brand']}</a>
   <span class="sep">|</span>
-  <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+  <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
   <div class="links">
     <a class="sec" href="#video">{ui['nav_video']}</a>
     <a class="sec" href="#como-funciona">{ui['nav_how']}</a>
@@ -215,7 +215,7 @@ def pagina(pid, lang, C, roteiro, videos):
 
 <div class="prevnext"><div class="wrap">{prev}{nxt}</div></div>
 </main>
-<footer><div class="wrap">{ui['footer']} · <a href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a> · <a href="https://github.com/inematds/jornada-agentes" target="_blank" rel="noopener">GitHub</a></div></footer>
+<footer><div class="wrap">{ui['footer']} · <a href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a> · <a href="https://github.com/linnoff88-dev/jornada-agentes" target="_blank" rel="noopener">GitHub</a></div></footer>
 {JS}
 </body>
 </html>

@@ -1,7 +1,7 @@
-# Sequence 3 — Agent Queues (inemaccbot)
+# Sequence 3 — Agent Queues (ARCKHÉccbot)
 
 **Objective:** Send several tasks, step away, and find the work done, with an approval gate where you’re needed.
-**Based on:** inemaccbot (https://inematds.github.io/inemaccbot/guia/) and course https://eventos.inema.pro/inemaccbot.html
+**Based on:** ARCKHÉccbot (https://linnoff88-dev.github.io/arckhe-/guia/) and course https://eventos.ARCKHÉ.pro/ARCKHÉccbot.html
 **Prerequisite:** Sequences 1 and 2.
 
 ---
@@ -32,7 +32,7 @@ Each file in `entrada/` becomes a task. The response goes to `feito/`. If there�
 
 **Done when:** both tasks are in `fila/feito/` with their responses, and you interrupted a run (Ctrl+C) and saw the queue continue where it left off.
 
-## E3. Install inemaccbot (1 h)
+## E3. Install ARCKHÉccbot (1 h)
 
 Follow the guide until `/ping` responds in Telegram. Then: `/ajuda` lists the commands and `/fila` shows the queues.
 

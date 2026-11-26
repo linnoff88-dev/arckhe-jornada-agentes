@@ -5,7 +5,7 @@
   "languages": [
     "pt"
   ],
-  "github_repo": "inematds/jornada-agentes",
+  "github_repo": "linnoff88-dev/jornada-agentes",
   "release_tag": "video-v2.0.0",
   "engine": "v2",
   "output": "/home/nmaldaner/projetos/output/jornada-agentes/seq2-jarvis/v2",

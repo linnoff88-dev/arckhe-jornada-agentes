@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sequence 3 — Agent queues: inemaccbot works while you sleep</title>
-<meta name="description" content="Sequence 3 of the From chat to agent series: why one agent isn&#x27;t enough, the durable inemaccbot queue, skills that run in the queue, and the human approval gate. Includes a video, a home-built queue, and exercises, open and free.">
-<link rel="canonical" href="https://inematds.github.io/jornada-agentes/serie/seq3-filas/en/">
-<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/jornada-agentes/serie/seq3-filas/"><link rel="alternate" hreflang="en" href="https://inematds.github.io/jornada-agentes/serie/seq3-filas/en/"><link rel="alternate" hreflang="es" href="https://inematds.github.io/jornada-agentes/serie/seq3-filas/es/">
-<meta property="og:title" content="Sequence 3 — Agent queues: inemaccbot works while you sleep">
-<meta property="og:description" content="Sequence 3 of the From chat to agent series: why one agent isn&#x27;t enough, the durable inemaccbot queue, skills that run in the queue, and the human approval gate. Includes a video, a home-built queue, and exercises, open and free.">
-<meta property="og:image" content="https://inematds.github.io/jornada-agentes/serie/assets/serie-seq3-filas-en.jpg">
+<title>Sequence 3 — Agent queues: ARCKHÉccbot works while you sleep</title>
+<meta name="description" content="Sequence 3 of the From chat to agent series: why one agent isn&#x27;t enough, the durable ARCKHÉccbot queue, skills that run in the queue, and the human approval gate. Includes a video, a home-built queue, and exercises, open and free.">
+<link rel="canonical" href="https://linnoff88-dev.github.io/arckhe-/serie/seq3-filas/en/">
+<link rel="alternate" hreflang="pt-BR" href="https://linnoff88-dev.github.io/arckhe-/serie/seq3-filas/"><link rel="alternate" hreflang="en" href="https://linnoff88-dev.github.io/arckhe-/serie/seq3-filas/en/"><link rel="alternate" hreflang="es" href="https://linnoff88-dev.github.io/arckhe-/serie/seq3-filas/es/">
+<meta property="og:title" content="Sequence 3 — Agent queues: ARCKHÉccbot works while you sleep">
+<meta property="og:description" content="Sequence 3 of the From chat to agent series: why one agent isn&#x27;t enough, the durable ARCKHÉccbot queue, skills that run in the queue, and the human approval gate. Includes a video, a home-built queue, and exercises, open and free.">
+<meta property="og:image" content="https://linnoff88-dev.github.io/arckhe-/serie/assets/serie-seq3-filas-en.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -44,8 +44,8 @@
   nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
   nav .brand .emoji{font-size:1.25rem}
   nav .sep{color:var(--mut);opacity:.45}
-  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
-  nav .inema:hover{filter:brightness(1.15)}
+  nav .ARCKHÉ{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .ARCKHÉ:hover{filter:brightness(1.15)}
   nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
   nav .pro:hover{filter:brightness(1.15)}
   nav .clubpro{display:inline-flex;align-items:center;gap:6px}
@@ -176,7 +176,7 @@
 <nav class="topo"><div class="wrap">
   <a class="brand" href="../../jornada-ia/en/"><span class="emoji">📋</span> Agents Journey</a>
   <span class="sep">|</span>
-  <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+  <a class="ARCKHÉ" href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a>
   <div class="links">
     <a class="sec" href="#video">Video</a>
     <a class="sec" href="#como-funciona">How it works</a>
@@ -193,18 +193,18 @@
     <span class="chip">Sequence 3 of 4 · Queues</span>
     <h1>Ten tasks and <span class="amb">go to sleep</span></h1>
     <p class="lead">A task queue for your agents, with recovery if something stops and a gate where work waits for your approval.</p>
-    <div class="cta"><a class="btn" href="#video">Watch the video ↓</a><a class="btn ghost" href="https://inematds.github.io/inemaccbot/guia/" target="_blank" rel="noopener">Open the inemaccbot guide →</a></div>
+    <div class="cta"><a class="btn" href="#video">Watch the video ↓</a><a class="btn ghost" href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">Open the ARCKHÉccbot guide →</a></div>
   </div>
-  <figure><img src="../../assets/serie-seq3-filas-en.jpg" alt="Sequence 3 — Agent queues: inemaccbot works while you sleep" width="1400" height="788"></figure>
+  <figure><img src="../../assets/serie-seq3-filas-en.jpg" alt="Sequence 3 — Agent queues: ARCKHÉccbot works while you sleep" width="1400" height="788"></figure>
 </div></header>
 
 <main id="conteudo">
-<div class="resumo" id="resumo"><div class="wrap"><p>An agent in the terminal does one thing at a time and only while you're watching. A queue solves that: each request becomes a saved task, picked up one at a time and resumed if the machine goes down. inemaccbot is a Telegram bot with this durable queue, running skills such as transcription, dubbing, explainer videos, courses, and reels. In multi-stage workflows, a human gate makes the bot stop and wait for your approval. This is where you go from doing the work to managing it.</p></div></div>
+<div class="resumo" id="resumo"><div class="wrap"><p>An agent in the terminal does one thing at a time and only while you're watching. A queue solves that: each request becomes a saved task, picked up one at a time and resumed if the machine goes down. ARCKHÉccbot is a Telegram bot with this durable queue, running skills such as transcription, dubbing, explainer videos, courses, and reels. In multi-stage workflows, a human gate makes the bot stop and wait for your approval. This is where you go from doing the work to managing it.</p></div></div>
 
 <section id="video"><div class="wrap">
   <span class="chip">The video</span>
-  <h2>Sequence 3 — Agent queues: inemaccbot works while you sleep</h2>
-  <div class="player"><video controls preload="metadata" playsinline poster="../../assets/serie-seq3-filas-en.jpg"><source src="https://github.com/inematds/jornada-agentes/releases/download/video-v2.0.0/jornada-seq3-filas-16x9.mp4" type="video/mp4"><track default kind="subtitles" src="https://inematds.github.io/jornada-agentes/serie/vtt/seq3-filas-en.vtt" srclang="en" label="English"></video></div>
+  <h2>Sequence 3 — Agent queues: ARCKHÉccbot works while you sleep</h2>
+  <div class="player"><video controls preload="metadata" playsinline poster="../../assets/serie-seq3-filas-en.jpg"><source src="https://github.com/linnoff88-dev/jornada-agentes/releases/download/video-v2.0.0/jornada-seq3-filas-16x9.mp4" type="video/mp4"><track default kind="subtitles" src="https://linnoff88-dev.github.io/arckhe-/serie/vtt/seq3-filas-en.vtt" srclang="en" label="English"></video></div>
   
 </div></section>
 
@@ -212,16 +212,16 @@
 echo "Resuma em 5 linhas o que é uma fila de tarefas." > fila/entrada/01.md
 echo "Liste 3 riscos de deixar um agente rodando sozinho." > fila/entrada/02.md
 ./ferramentas/fila-caseira.sh fila   <span class="c"># replies in fila/feito/</span></pre></div></section><section id="skills"><div class="wrap"><span class="chip">What goes in the queue</span><h2>Skills that run as agents</h2><p class="sub">You send the request on Telegram. The default engine is Claude Code, with Codex or OpenCode as alternatives.</p><div class="pills"><span class="pill">Transcription</span><span class="pill">Dubbing</span><span class="pill">Explainer video</span><span class="pill">Course</span><span class="pill">Demo</span><span class="pill">Reel</span></div></div></section><section id="portao"><div class="wrap"><span class="chip">The gate</span><h2>Automated, with you in control</h2><p class="sub">Multi-stage workflows, with the state saved at each stage.</p><div class="steps"><div class="step"><div class="b">1</div><div><h3>The bot writes the copy</h3><p>The workflow's first stage, without spending anything expensive.</p></div></div><div class="step"><div class="b">2</div><div><h3>Then it stops at the gate</h3><p>You read it, make any needed changes, and approve or reject it.</p></div></div><div class="step"><div class="b">3</div><div><h3>Only then does it continue</h3><p>Avatar, download, and video run after you say okay.</p></div></div></div><p class="note">You define the tasks, gates, and rules. The agents run through the queue, and you decide at the points that matter. <b>From doing the work to managing it.</b></p></div></section>
-<section id="exercicios"><div class="wrap"><span class="chip">Practice</span><h2>Exercises in this sequence</h2><p class="sub">Do them in order. Each exercise has a "ready when" criterion: move on only when it is true.</p><ol class="exs"><li class="card"><span class="num">E1</span><div><h3>Map the queue on paper <small>· 15 min</small></h3><p><b>Ready when:</b> 10 tasks are listed, and at least two have a gate.</p></div></li><li class="card"><span class="num">E2</span><div><h3>A home-built queue in 30 lines <small>· 30 min</small></h3><p><b>Ready when:</b> the tasks are in fila/feito/ and the queue picked up where it left off after Ctrl+C.</p></div></li><li class="card"><span class="num">E3</span><div><h3>Install inemaccbot <small>· 1 h</small></h3><p><b>Ready when:</b> /ping replies on your Telegram.</p></div></li><li class="card"><span class="num">E4</span><div><h3>Ten tasks and go to sleep <small>· 1 night</small></h3><p><b>Ready when:</b> you checked every result and noted how many were right the first time.</p></div></li><li class="card"><span class="num">E5</span><div><h3>The gate <small>· 30 min</small></h3><p><b>Ready when:</b> you rejected or corrected at least one text before approving it.</p></div></li></ol><p><a class="btn ghost" href="https://github.com/inematds/jornada-agentes/blob/main/exercicios/en/03-filas.md" target="_blank" rel="noopener">Open all exercises →</a></p></div></section>
+<section id="exercicios"><div class="wrap"><span class="chip">Practice</span><h2>Exercises in this sequence</h2><p class="sub">Do them in order. Each exercise has a "ready when" criterion: move on only when it is true.</p><ol class="exs"><li class="card"><span class="num">E1</span><div><h3>Map the queue on paper <small>· 15 min</small></h3><p><b>Ready when:</b> 10 tasks are listed, and at least two have a gate.</p></div></li><li class="card"><span class="num">E2</span><div><h3>A home-built queue in 30 lines <small>· 30 min</small></h3><p><b>Ready when:</b> the tasks are in fila/feito/ and the queue picked up where it left off after Ctrl+C.</p></div></li><li class="card"><span class="num">E3</span><div><h3>Install ARCKHÉccbot <small>· 1 h</small></h3><p><b>Ready when:</b> /ping replies on your Telegram.</p></div></li><li class="card"><span class="num">E4</span><div><h3>Ten tasks and go to sleep <small>· 1 night</small></h3><p><b>Ready when:</b> you checked every result and noted how many were right the first time.</p></div></li><li class="card"><span class="num">E5</span><div><h3>The gate <small>· 30 min</small></h3><p><b>Ready when:</b> you rejected or corrected at least one text before approving it.</p></div></li></ol><p><a class="btn ghost" href="https://github.com/linnoff88-dev/jornada-agentes/blob/main/exercicios/en/03-filas.md" target="_blank" rel="noopener">Open all exercises →</a></p></div></section>
 <section id="materiais"><div class="wrap"><span class="chip">Materials</span><h2>Courses, projects, and guides</h2>
-<p class="sub">Everything is open and free. Start with the first item on the list.</p><div class="grid g3"><a class="card mat" href="https://inematds.github.io/inemaccbot/guia/" target="_blank" rel="noopener"><h3>inemaccbot Guide →</h3><p>setup and architecture</p></a><a class="card mat" href="https://eventos.inema.pro/inemaccbot.html" target="_blank" rel="noopener"><h3>INEMACCBOT course →</h3><p>with the promoavatar workflow</p></a><a class="card mat" href="https://github.com/inematds/jornada-agentes/blob/main/ferramentas/fila-caseira.sh" target="_blank" rel="noopener"><h3>Home-built queue →</h3><p>the idea in 30 lines</p></a><a class="card mat" href="https://eventos.inema.pro/do-chat-ao-agente/en/" target="_blank" rel="noopener"><h3>Event area →</h3><p>eventos.inema.pro</p></a></div></div></section>
+<p class="sub">Everything is open and free. Start with the first item on the list.</p><div class="grid g3"><a class="card mat" href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener"><h3>ARCKHÉccbot Guide →</h3><p>setup and architecture</p></a><a class="card mat" href="https://eventos.ARCKHÉ.pro/ARCKHÉccbot.html" target="_blank" rel="noopener"><h3>ARCKHÉCCBOT course →</h3><p>with the promoavatar workflow</p></a><a class="card mat" href="https://github.com/linnoff88-dev/jornada-agentes/blob/main/ferramentas/fila-caseira.sh" target="_blank" rel="noopener"><h3>Home-built queue →</h3><p>the idea in 30 lines</p></a><a class="card mat" href="https://eventos.ARCKHÉ.pro/do-chat-ao-agente/en/" target="_blank" rel="noopener"><h3>Event area →</h3><p>eventos.ARCKHÉ.pro</p></a></div></div></section>
 
 <section class="cta-final"><div class="wrap"><h2>Build your queue</h2><p>Once your queue is running, you can automate social media: that's sequence 4.</p>
-<a class="btn" href="https://inematds.github.io/inemaccbot/guia/" target="_blank" rel="noopener">Open the inemaccbot guide →</a></div></section>
+<a class="btn" href="https://linnoff88-dev.github.io/arckhe-/guia/" target="_blank" rel="noopener">Open the ARCKHÉccbot guide →</a></div></section>
 
 <div class="prevnext"><div class="wrap"><a class="pn" href="../../seq2-jarvis/en/"><small>← Previous</small><b>2 · Jarvis</b></a><a class="pn dir" href="../../seq4-redes/en/"><small>Next →</small><b>4 · Social media</b></a></div></div>
 </main>
-<footer><div class="wrap">"From chat to agent" series · INEMA · open and free content · <a href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a> · <a href="https://github.com/inematds/jornada-agentes" target="_blank" rel="noopener">GitHub</a></div></footer>
+<footer><div class="wrap">"From chat to agent" series · ARCKHÉ · open and free content · <a href="https://ARCKHÉ AI" target="_blank" rel="noopener">ARCKHÉ AI</a> · <a href="https://github.com/linnoff88-dev/jornada-agentes" target="_blank" rel="noopener">GitHub</a></div></footer>
 <script>
 (function(){var b=document.body,k='jornada-tema';try{if(localStorage.getItem(k)==='light')b.classList.add('light')}catch(e){}
 var t=document.getElementById('tgl');if(t)t.addEventListener('click',function(){b.classList.toggle('light');

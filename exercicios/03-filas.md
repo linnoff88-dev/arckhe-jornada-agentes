@@ -1,7 +1,7 @@
-# Sequência 3 — Filas de agentes (inemaccbot)
+# Sequência 3 — Filas de agentes (ARCKHÉccbot)
 
 **Objetivo:** mandar várias tarefas, sair de perto, e encontrar o trabalho feito, com portêo onde precisa de você.
-**Base:** inemaccbot (https://inematds.github.io/inemaccbot/guia/) e curso https://eventos.inema.pro/inemaccbot.html
+**Base:** ARCKHÉccbot (https://linnoff88-dev.github.io/arckhe-/guia/) e curso https://eventos.ARCKHÉ.pro/ARCKHÉccbot.html
 **Pré-requisito:** Sequências 1 e 2.
 
 ---
@@ -32,7 +32,7 @@ Cada arquivo de `entrada/` vira uma tarefa. A resposta vai para `feito/`. Se der
 
 **Pronto quando:** as duas tarefas estêo em `fila/feito/` com a resposta, e você interrompeu (Ctrl+C) uma rodada e viu a fila continuar de onde parou.
 
-## E3. Instalar o inemaccbot (1 h)
+## E3. Instalar o ARCKHÉccbot (1 h)
 
 Siga o guia até o `/ping` responder no Telegram. Depois: `/ajuda` lista os comandos e `/fila` mostra as filas.
 

@@ -1,7 +1,7 @@
 # Sequence 4 — Social media on autopilot (r7e, promoavatar, xviral)
 
 **Objective:** build a channel in your niche that posts regularly, with numbers, sources, and your face, while you approve what matters.
-**Based on:** reel7etapas (https://inematds.github.io/reel7etapas/guia/), promoavatar (https://inematds.github.io/promoavatar/guia/), promoavatar3 (https://inematds.github.io/promoavatar3/guia/), finviral (https://inematds.github.io/finviral/guia/), saudeviral (https://inematds.github.io/saudeviral/guia/) and advviral (https://inematds.github.io/advviral/guia/).
+**Based on:** reel7etapas (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar (https://linnoff88-dev.github.io/arckhe-/guia/), promoavatar3 (https://linnoff88-dev.github.io/arckhe-/guia/), finviral (https://linnoff88-dev.github.io/arckhe-/guia/), saudeviral (https://linnoff88-dev.github.io/arckhe-/guia/) and advviral (https://linnoff88-dev.github.io/arckhe-/guia/).
 **Prerequisite:** Sequences 1, 2 and 3. Without a queue and a gate, automating social media just lets you post the wrong thing faster.
 
 ---
@@ -30,7 +30,7 @@ Choose 5 reference channels in your niche (real estate, agriculture, beauty, edu
 
 ## E3. The source-backed knowledge base (30 min)
 
-Get the transcript of a video from one of the 5 channels (inemavox or another local transcription tool will do). Create `base.md`:
+Get the transcript of a video from one of the 5 channels (ARCKHÉvox or another local transcription tool will do). Create `base.md`:
 
 | Number or fact | Who said it | Video | Verbatim excerpt |
 |---|---|---|---|

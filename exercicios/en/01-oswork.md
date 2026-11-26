@@ -1,7 +1,7 @@
 # Sequence 1 — From chat to the terminal (OSWork)
 
 **Goal:** leave the chat and put an agent to work inside one of your folders.
-**Based on:** the OSWork course (https://inematds.github.io/oswork-quick/) and the area at https://eventos.inema.pro/oswork/
+**Based on:** the OSWork course (https://linnoff88-dev.github.io/arckhe-/) and the area at https://eventos.ARCKHÉ.pro/oswork/
 **You will need:** a computer, the terminal (cmd on Windows; Terminal on Mac and Linux), and Claude Code or Codex installed.
 
 Follow the steps in order. Each exercise has a **Done when** criterion: move on only when it’s true.
